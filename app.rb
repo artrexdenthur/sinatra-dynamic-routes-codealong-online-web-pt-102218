@@ -21,6 +21,7 @@ class App < Sinatra::Base
   get "/multiplier/:num1" do
     @product = params[:num1].to_i * 3
     @product
+    200
   end
 
   # Code your final two routes here:
